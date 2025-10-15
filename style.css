@@ -1,0 +1,91 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+body, html{
+    background-color: darkgray;
+    min-height: 100vh;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1{
+    font-variant: small-caps;
+    font-family: "Merriweather", serif;
+    font-size: 8vh;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+p{
+    margin: 0;
+    font-family: "Caveat", cursive;
+    font-size: 40px;
+    padding-left: 50px;
+    font-size: 2.15em;
+    padding: 30px;
+}
+
+
+.normal{
+    background-color: white;
+    color: black;
+}
+
+.imagem{
+    background-color: darkcyan;
+    color: white;
+    background-position: center center;
+    padding: 145px 0 145px 35px;
+    box-shadow: inset 6px 6px 13px 0 rgba(0, 0, 0, 0.644);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.541);
+    display: inline-block;
+}
+
+section.normal p{
+    padding-bottom: 2em;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+#img01{
+    background-image: url(imagens/background001.jpg);
+}
+
+#img02{
+    background-image: url(imagens/background002.jpg);
+}
